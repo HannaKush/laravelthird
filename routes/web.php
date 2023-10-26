@@ -36,6 +36,7 @@ Route::put('posts/{post}', [PostController::class,'update'])->name('posts.update
 
 Route::delete('posts/{post}', [PostController::class,'delete'])->name('posts.delete');
 
+Route::put('posts/{post}',[PostController::class,'like'])->name('posts.like');
 
 
 
